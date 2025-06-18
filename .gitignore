@@ -1,0 +1,69 @@
+# Node modules
+node_modules/
+.pnpm/
+.yarn/
+.yarnrc.yml
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Build output
+dist/
+build/
+.next/
+out/
+coverage/
+public/build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.test
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+.history/
+
+# TypeScript
+*.tsbuildinfo
+
+# Lint & Formatting
+.eslintcache
+.prettiercache
+
+# Shopify CLI
+.shopify/
+.cache/
+.sanity/
+.svelte-kit/
+.kit/
+
+# IDEs
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Mac/Linux swap files
+*.swp
+*.swo
+
+# Optional: Ignore lockfiles (if only using one package manager)
+# yarn.lock
+# package-lock.json
+# pnpm-lock.yaml
